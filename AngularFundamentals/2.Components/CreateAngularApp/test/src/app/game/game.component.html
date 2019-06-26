@@ -1,0 +1,20 @@
+<button [style.background] = "isShown? 'red': 'blue'" (click)="showContacts()">Show contacts</button>
+<h1 *ngIf="isShown">Our contacts...</h1>
+<br>
+<input [(ngModel)]="outputName" placeholder="name">
+<button>Send</button>
+<h1 *ngIf="outputName">Your name is: {{outputName}}</h1>
+<br>
+<div *ngIf="games">
+  <ul>
+    <li *ngFor="let game of games">
+      <h1 [class.myStyle]="isShown">{{game.title}}</h1>
+      <br>
+      <h5>With id:{{game.id}}</h5>
+      <br>
+      <img [src]="game.image" alt="picture">
+      <br>
+      <app-subscribe (notification)="notifyMe($event)" [subGame]="game"></app-subscribe>
+    </li>
+  </ul>
+</div>
