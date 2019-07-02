@@ -10,7 +10,6 @@ import { HomeServiceComponent } from './home/home-service/home-service.component
   declarations: [
     AppComponent,
     HomeComponent,
-    HomeServiceComponent,
   ],
   imports: [
     BrowserModule,
