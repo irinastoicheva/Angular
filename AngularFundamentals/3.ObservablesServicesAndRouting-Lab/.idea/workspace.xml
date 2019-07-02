@@ -2,42 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae3daede-2026-4fd9-a0eb-542789a5c628" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/GitHubProfile/src/app/home/home/gitHubProfile.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab/angular.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab/browserslist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab/e2e/protractor.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab/e2e/src/app.e2e-spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab/e2e/src/app.po.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab/e2e/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab/karma.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab/src/app/app.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab/src/app/app.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab/src/app/app.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab/src/app/app.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab/src/app/app.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab/src/app/car/car.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab/src/app/car/car.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab/src/app/car/car.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab/src/app/car/car.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab/src/app/engine/engine.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab/src/assets/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab/src/environments/environment.prod.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab/src/environments/environment.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab/src/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab/src/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab/src/main.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab/src/polyfills.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab/src/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab/src/test.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab/tsconfig.app.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab/tsconfig.spec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab/tslint.json" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -51,22 +17,43 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Injectable/src/app/app.module.ts">
+        <entry file="file://$PROJECT_DIR$/GitHubProfile/src/app/home/home/home.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+            <state relative-caret-position="190">
+              <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
               <folding>
-                <element signature="e#0#58#0" expanded="true" />
+                <element signature="e#0#50#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Injectable/src/index.html">
+        <entry file="file://$PROJECT_DIR$/GitHubProfile/src/app/home/home/home.component.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="140">
-              <caret line="7" column="50" lean-forward="true" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GitHubProfile/src/app/home/home-service/home-service.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="123">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="e#0#60#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GitHubProfile/src/app/home/home/gitHubProfile.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -77,6 +64,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -94,6 +82,13 @@
         <option value="$PROJECT_DIR$/Lab/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/Lab/src/app/car/car.component.css" />
         <option value="$PROJECT_DIR$/Injectable/src/index.html" />
+        <option value="$PROJECT_DIR$/GitHubProfile/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/GitHubProfile/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/GitHubProfile/src/app/home/GitHubProfile.ts" />
+        <option value="$PROJECT_DIR$/GitHubProfile/src/app/home/home/gitHubProfile.ts" />
+        <option value="$PROJECT_DIR$/GitHubProfile/src/app/home/home-service/home-service.component.ts" />
+        <option value="$PROJECT_DIR$/GitHubProfile/src/app/home/home/home.component.ts" />
+        <option value="$PROJECT_DIR$/GitHubProfile/src/app/home/home/home.component.html" />
       </list>
     </option>
   </component>
@@ -120,20 +115,46 @@
             <path>
               <item name="3.ObservablesServicesAndRouting-Lab" type="b2602c69:ProjectViewProjectNode" />
               <item name="3.ObservablesServicesAndRouting-Lab" type="462c0819:PsiDirectoryNode" />
-              <item name="Injectable" type="462c0819:PsiDirectoryNode" />
+              <item name="GitHubProfile" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="3.ObservablesServicesAndRouting-Lab" type="b2602c69:ProjectViewProjectNode" />
               <item name="3.ObservablesServicesAndRouting-Lab" type="462c0819:PsiDirectoryNode" />
-              <item name="Injectable" type="462c0819:PsiDirectoryNode" />
+              <item name="GitHubProfile" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="3.ObservablesServicesAndRouting-Lab" type="b2602c69:ProjectViewProjectNode" />
               <item name="3.ObservablesServicesAndRouting-Lab" type="462c0819:PsiDirectoryNode" />
-              <item name="Injectable" type="462c0819:PsiDirectoryNode" />
+              <item name="GitHubProfile" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="3.ObservablesServicesAndRouting-Lab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="3.ObservablesServicesAndRouting-Lab" type="462c0819:PsiDirectoryNode" />
+              <item name="GitHubProfile" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="3.ObservablesServicesAndRouting-Lab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="3.ObservablesServicesAndRouting-Lab" type="462c0819:PsiDirectoryNode" />
+              <item name="GitHubProfile" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="3.ObservablesServicesAndRouting-Lab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="3.ObservablesServicesAndRouting-Lab" type="462c0819:PsiDirectoryNode" />
+              <item name="GitHubProfile" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+              <item name="home-service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -154,6 +175,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Angular\AngularFundamentals\3.ObservablesServicesAndRouting-Lab\GitHubProfile\src\app" />
       <recent name="D:\Angular\AngularFundamentals\3.ObservablesServicesAndRouting-Lab\Lab\src\app\car" />
       <recent name="D:\Angular\AngularFundamentals\3.ObservablesServicesAndRouting-Lab\Lab\src\app\engine" />
     </key>
@@ -181,12 +203,13 @@
       <option name="presentableId" value="Default" />
       <updated>1562068548255</updated>
       <workItem from="1562068549471" duration="2944000" />
-      <workItem from="1562071533127" duration="126000" />
+      <workItem from="1562071533127" duration="1081000" />
+      <workItem from="1562080056003" duration="5935000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3070000" />
+    <option name="totallyTimeSpent" value="9960000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -214,6 +237,11 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/GitHubProfile/node_modules/karma/config.tpl.js" />
+      </list>
+    </option>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Lab/src/app/app.component.html" />
@@ -223,20 +251,95 @@
     <entry file="file://$PROJECT_DIR$/Lab/src/app/engine/engine.component.ts" />
     <entry file="file://$PROJECT_DIR$/Lab/angular.json" />
     <entry file="file://$PROJECT_DIR$/Lab/src/app/car/car.component.css" />
+    <entry file="file://$PROJECT_DIR$/Injectable/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Injectable/src/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        <state relative-caret-position="181">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
           <folding>
             <element signature="e#0#58#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Injectable/src/index.html">
+    <entry file="file://$PROJECT_DIR$/Injectable/src/app/car/car.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="16" selection-end-line="21" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Injectable/src/app/engine/engine.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
-          <caret line="7" column="50" lean-forward="true" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
+          <caret line="7" column="9" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GitHubProfile/src/app/home/GitHubProfile.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GitHubProfile/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GitHubProfile/src/app/home/home/gitHubProfile.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GitHubProfile/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GitHubProfile/src/app/home/home-service/home-service.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GitHubProfile/src/app/home/home/home.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GitHubProfile/src/app/home/home/home.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
