@@ -1,0 +1,5 @@
+<input #currentNumberInput type="number" [value]="currentValue" [min]="0" (change)="changeHandler($event)">
+
+<div appHighlight [value]="currentValue" [index]="0">0</div>
+<div appHighlight [value]="currentValue" [index]="1">1</div>
+

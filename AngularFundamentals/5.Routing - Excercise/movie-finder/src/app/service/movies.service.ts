@@ -51,4 +51,9 @@ export class MoviesService {
     // tslint:disable-next-line:ban-types
     return this.httpClient.get<Object>(`${this.path}${this.movie}` + id + `${this.movieAuth}${apiKey}`);
   }
+
+  findAMovie(name) {
+    https://api.themoviedb.org/3/search/movie?query=' + name + '&api_key=' + apiKey
+    return this.httpClient.get('https://api.themoviedb.org/3/search/movie?query=' + name + '&api_key=' + apiKey);
+  }
 }

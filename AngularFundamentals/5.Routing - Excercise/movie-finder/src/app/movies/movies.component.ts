@@ -15,30 +15,42 @@ export class MoviesComponent implements OnInit {
   kidsMovies: Object;
   // tslint:disable-next-line:ban-types
   drama: Object;
+  searchResult: any;
+  isSearch: boolean;
 
   constructor(private moviesService: MoviesService) {
+  }
+
+  search(name) {
+    const value = name.search;
+    this.moviesService.findAMovie(value).subscribe(data => {
+      this.searchResult = data;
+      this.isSearch = true;
+      console.log(this.searchResult);
+    });
   }
 
   ngOnInit() {
     this.moviesService.getPopular().subscribe(data => {
       this.popular = data;
-      console.log(this.popular);
+      // console.log(this.popular);
     });
 
     this.moviesService.getTheaters().subscribe(data => {
       this.theaters = data;
-      console.log(this.theaters);
+      // console.log(this.theaters);
     });
 
     this.moviesService.getKidsMovies().subscribe(data => {
       this.kidsMovies = data;
-      console.log(this.kidsMovies);
+      // console.log(this.kidsMovies);
     });
 
     this.moviesService.getDrama().subscribe(data => {
       this.drama = data;
-      console.log(this.drama);
+      // console.log(this.drama);
     });
+
   }
 
 }
