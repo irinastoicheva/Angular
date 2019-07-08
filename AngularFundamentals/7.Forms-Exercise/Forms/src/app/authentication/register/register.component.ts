@@ -17,4 +17,10 @@ export class RegisterComponent implements OnInit {
   ngOnInit() {
   }
 
+  registration() {
+    console.log(this.form);
+  }
+
+  get diagnostic() { return JSON.stringify(this.form); }
+
 }

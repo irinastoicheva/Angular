@@ -1,61 +1,90 @@
-{{ngForm | json}}
-<div class="container" >
+{{diagnostic}}
+<div class="container">
   <h1>Registration Form</h1>
-  <form #registerForm = "ngForm" (ngSubmit)="registration()">
+  <form #registerForm="ngForm" (ngSubmit)="registration()">
     <div class="form-group">
       <label for="username">Username</label>
       <input type="text" class="form-control" id="username"
+             pattern="^[A-Z][A-Za-z0-9]+$"
              required
-             name = "username"
-      [(ngModel)]="form.username"
-      #username = "ngModel">
+             name="username"
+             [(ngModel)]="form.username"
+             #username="ngModel">
+
+      <div [hidden]="username.valid || username.pristine" class="alert alert-danger">
+        Username must start with a capital letter and must contain only letters and digits.
+      </div>
     </div>
     <div class="form-group">
       <label for="password">Password</label>
       <input type="password" class="form-control" id="password"
+             pattern="^[A-Za-z0-9]{4,16}$"
              required
-             name = "password"
+             name="password"
              [(ngModel)]="form.password"
-             #password = "ngModel">
+             #password="ngModel">
+
+      <div [hidden]="password.valid || password.pristine" class="alert alert-danger">
+        Password must contain only letters and digits and must be between 4 and 16 symbols.
+      </div>
     </div>
     <div class="form-group">
       <label for="confirmPassword">Confirm Password</label>
       <input type="password" class="form-control" id="confirmPassword"
              required
-             name = "confirmPassword"
+             name="confirmPassword"
              [(ngModel)]="form.confirmPassword"
-             #confirmPassword = "ngModel">
+             #confirmPassword="ngModel">
+
+      <div [hidden]="password.value == confirmPassword.value || confirmPassword.pristine" class="alert alert-danger">
+        Both passwords must match.
+      </div>
     </div>
     <div class="form-group">
       <label for="firstName">First Name</label>
       <input type="text" class="form-control" id="firstName"
+             pattern="^[A-Z][a-z]+$"
              required
-             name = "firstName"
+             name="firstName"
              [(ngModel)]="form.firstName"
-             #firstName = "ngModel">
+             #firstName="ngModel">
+
+      <div [hidden]="firstName.valid || firstName.pristine" class="alert alert-danger">
+        First Name must contain only letters and start with a capital letter.
+      </div>
     </div>
     <div class="form-group">
       <label for="lastName">Last Name</label>
       <input type="text" class="form-control" id="lastName"
+             pattern="^[A-Z][a-z]+$"
              required
-             name = "lastName"
+             name="lastName"
              [(ngModel)]="form.lastName"
-             #lastName = "ngModel">
+             #lastName="ngModel">
+
+      <div [hidden]="lastName.valid || lastName.pristine" class="alert alert-danger">
+        Last Name must contain only letters and start with a capital letter.
+      </div>
     </div>
     <div class="form-group">
       <label for="email">Email Address</label>
-      <input type="text" class="form-control" id="email"
+      <input type="email" class="form-control" id="email"
              required
-             name = "email"
+             email
+             name="email"
              [(ngModel)]="form.email"
-             #email= "ngModel">
+             #email="ngModel">
+
+      <div [hidden]="email.valid || email.pristine">
+        There are various email address patterns in the internet. Find one and use it.
+      </div>
     </div>
     <div class="form-group">
       <label for="age">Age</label>
       <input type="number" class="form-control" id="age"
-             name = "age"
+             name="age"
              [(ngModel)]="form.age"
-             #age= "ngModel">
+             #age="ngModel">
     </div>
 
     <button type="submit" class="btn btn-success" [disabled]="registerForm.form.invalid">Register</button>
