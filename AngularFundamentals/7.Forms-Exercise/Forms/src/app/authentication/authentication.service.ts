@@ -59,7 +59,7 @@ export class AuthenticationService {
     if (type === 'Basic') {
       return new HttpHeaders({
         Authorization: `Basic ${btoa(`${appKey}:${appSecret}`)}`,
-        'Content-Type': `applicanion/json`
+        'Content-Type' : 'application/json'
       });
     } else {
       return new HttpHeaders({

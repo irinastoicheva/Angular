@@ -2,7 +2,7 @@ import {Component, OnInit} from '@angular/core';
 import {RegisterModel} from '../../models/register.model';
 import {FormsModule} from '@angular/forms';
 import {AuthenticationService} from '../authentication.service';
-import {Router} from "@angular/router";
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-register',
@@ -29,14 +29,19 @@ export class RegisterComponent implements OnInit {
       .subscribe(
         data => {
           this.router.navigate(['/login']);
+          // console.log('Registration...');
+          // console.log(this.form);
         },
         err => {
+          // console.log(err);
           this.loginFailed = true;
           this.errMessage = err.error.description;
         });
   }
 
-  get diagnostic() {}
+  get diagnostic() {
+    return JSON.stringify(this.form); }
 }
+
 
 
