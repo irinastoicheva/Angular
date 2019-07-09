@@ -1,4 +1,5 @@
 export class RegisterModel {
+  confirmPassword: string;
   constructor(
     username: string,
     password: string,

@@ -8,9 +8,9 @@ import { RegisterComponent } from './authentication/register/register.component'
 import { HomeComponent } from './home/home.component';
 import {AppRoutesModule} from './app-routing.module';
 import {RouterModule} from '@angular/router';
-import {RegisterModel} from './models/register.model';
-import {LoginModel} from './models/login.model';
 import {FormsModule} from '@angular/forms';
+import {HttpClientModule} from '@angular/common/http';
+import {AuthenticationService} from './authentication/authentication.service';
 
 @NgModule({
   declarations: [
@@ -24,9 +24,10 @@ import {FormsModule} from '@angular/forms';
     BrowserModule,
     AppRoutesModule,
     RouterModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
-  providers: [RegisterModel, LoginModel],
+  providers: [AuthenticationService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
