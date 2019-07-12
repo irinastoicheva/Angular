@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ab0c5d2-ec71-463a-abca-11afa00ff4d6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/6.FormsDirectivesAndPipes/test-app-forms" beforeDir="false" afterPath="$PROJECT_DIR$/6.FormsDirectivesAndPipes/test-app-forms" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/6.FormsDirectivesAndPipes/test-app-forms/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/6.FormsDirectivesAndPipes/test-app-forms/angular.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/6.FormsDirectivesAndPipes/test-app-forms/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/6.FormsDirectivesAndPipes/test-app-forms/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/6.FormsDirectivesAndPipes/test-app-forms/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/6.FormsDirectivesAndPipes/test-app-forms/src/app/app.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/6.FormsDirectivesAndPipes/test-app-forms/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/6.FormsDirectivesAndPipes/test-app-forms/src/app/app.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/6.FormsDirectivesAndPipes/test-app-forms/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/6.FormsDirectivesAndPipes/test-app-forms/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.Furniture System/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/8.Furniture System/src/app/app.module.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,7 +32,7 @@
         <entry file="file://$PROJECT_DIR$/8.Furniture System/src/app/app.module.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="39" column="79" selection-start-line="39" selection-start-column="79" selection-end-line="39" selection-end-column="79" />
+              <caret line="41" column="79" selection-start-line="41" selection-start-column="79" selection-end-line="41" selection-end-column="79" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -155,16 +155,7 @@
               <item name="8.Furniture System" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="authentication" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AngularFundamentals" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AngularFundamentals" type="462c0819:PsiDirectoryNode" />
-              <item name="8.Furniture System" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="authentication" type="462c0819:PsiDirectoryNode" />
-              <item name="signin" type="462c0819:PsiDirectoryNode" />
+              <item name="furniture" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -210,18 +201,17 @@
       <updated>1562578691934</updated>
       <workItem from="1562578693534" duration="34419000" />
       <workItem from="1562705200891" duration="5895000" />
-      <workItem from="1562932694891" duration="4185000" />
+      <workItem from="1562932694891" duration="4308000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44499000" />
+    <option name="totallyTimeSpent" value="44622000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -234,7 +224,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49925596" visible="true" weight="0.33333334" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49925596" visible="true" weight="0.33333334" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50074404" side_tool="true" weight="0.33333334" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -479,7 +469,7 @@
     <entry file="file://$PROJECT_DIR$/8.Furniture System/src/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="39" column="79" selection-start-line="39" selection-start-column="79" selection-end-line="39" selection-end-column="79" />
+          <caret line="41" column="79" selection-start-line="41" selection-start-column="79" selection-end-line="41" selection-end-column="79" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
