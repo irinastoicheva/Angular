@@ -1,5 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 import {FormBuilder, FormGroup, Validators} from '@angular/forms';
+import {FurnitureService} from '../furniture.service';
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-create-furniture',
@@ -9,7 +11,9 @@ import {FormBuilder, FormGroup, Validators} from '@angular/forms';
 export class CreateFurnitureComponent implements OnInit {
   form: FormGroup;
 
-  constructor(private  fb: FormBuilder) {
+  constructor(private  fb: FormBuilder,
+              private furnitureService: FurnitureService,
+              private router: Router) {
   }
 
   ngOnInit() {
@@ -18,17 +22,27 @@ export class CreateFurnitureComponent implements OnInit {
       model: ['', [Validators.required, Validators.minLength(4)]],
       year: ['', [Validators.required, Validators.min(1950), Validators.max(2050)]],
       description: ['', [Validators.required, Validators.minLength(10)]],
-      price: ['', [Validators.required, Validators.min(0.00000001)]],
-      imageUrl: ['', Validators.required],
+      price: ['', [Validators.required, Validators.min(0.001)]],
+      image: ['', Validators.required],
       material: ['', Validators.nullValidator]
     });
   }
 
   createFurniture() {
-    console.log(this.form);
+    this.furnitureService.createFurniture(this.form.value)
+      .subscribe(resp => {
+        console.log('success', resp);
+        if (resp['success']) {
+          this.router.navigate(['furniture/all']);
+        }
+      });
   }
 
   get f() {
     return this.form.controls;
+  }
+
+  get invalid() {
+    return this.form.invalid;
   }
 }
