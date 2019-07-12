@@ -1,4 +1,4 @@
-import { Injectable } from '@angular/core';
+import {Injectable} from '@angular/core';
 import {HttpClient} from '@angular/common/http';
 
 const createF = 'http://localhost:5000/furniture/create';
@@ -8,9 +8,10 @@ const createF = 'http://localhost:5000/furniture/create';
 })
 export class FurnitureService {
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient) {
+  }
 
-createFurniture(data) {
-return this.http.post(createF, data);
-}
+  createFurniture(data) {
+    return this.http.post(createF, data);
+  }
 }

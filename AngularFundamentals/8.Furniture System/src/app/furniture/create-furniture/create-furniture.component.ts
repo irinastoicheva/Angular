@@ -33,7 +33,7 @@ export class CreateFurnitureComponent implements OnInit {
       .subscribe(resp => {
         console.log('success', resp);
         if (resp['success']) {
-          this.router.navigate(['furniture/all']);
+          this.router.navigate(['/furniture/all']);
         }
       });
   }
