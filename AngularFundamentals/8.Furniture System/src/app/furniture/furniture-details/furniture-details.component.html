@@ -9,18 +9,18 @@
       <div class="card text-white bg-primary">
         <div class="card-body">
           <blockquote class="card-blockquote">
-            <img src="imageUrl" />
+            <img src={{furniture.image}} />
           </blockquote>
         </div>
       </div>
     </div>
     <div class="col-md-4">
-      <p>Make: make</p>
-      <p>Model: model</p>
-      <p>Year: year</p>
-      <p>Description: description</p>
-      <p>Price: price</p>
-      <p>Material: material</p>
+      <p>Make: {{furniture.make}}</p>
+      <p>Model: {{furniture.model}}</p>
+      <p>Year: {{furniture.year}}</p>
+      <p>Description: {{furniture.description}}</p>
+      <p>Price: {{furniture.price}}</p>
+      <p *ngIf="furniture.material">Material: {{furniture.material}}</p>
     </div>
   </div>
 </div>

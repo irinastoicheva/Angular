@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import {Furniture} from '../../models/furniture';
+import {FurnitureService} from '../furniture.service';
+import {Observable} from 'rxjs';
 
 @Component({
   selector: 'app-furniture-all',
@@ -6,10 +9,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./furniture-all.component.css']
 })
 export class FurnitureAllComponent implements OnInit {
-
-  constructor() { }
+furniture$: Observable<Array<Furniture>>;
+  constructor(private furnitureService: FurnitureService) { }
 
   ngOnInit() {
+    setTimeout(() => { this.furniture$ = this.furnitureService.getAllFurniture(); }, 3000);
   }
-
 }

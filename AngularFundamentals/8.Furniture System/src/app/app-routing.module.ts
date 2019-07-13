@@ -16,10 +16,10 @@ const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'signin', component: SigninComponent },
   { path: 'signup', component: SignupComponent },
-  { path: 'furniture/create', component: CreateFurnitureComponent }, // canActivate: [ AuthGuard]
-  { path: 'furniture/all', component: FurnitureAllComponent },
-  // { path: '++', component: FurnitureDetailsComponent},
-  { path: 'furniture/user', component: FurnitureUserComponent }
+  { path: 'furniture/create', component: CreateFurnitureComponent, canActivate: [AuthGuard] }, // canActivate: [ AuthGuard]
+  { path: 'furniture/all', component: FurnitureAllComponent, canActivate: [AuthGuard] },
+  { path: 'furniture/details/:id', component: FurnitureDetailsComponent, canActivate: [AuthGuard]},
+  { path: 'furniture/user', component: FurnitureUserComponent, canActivate: [AuthGuard] }
 ];
 
 @NgModule({

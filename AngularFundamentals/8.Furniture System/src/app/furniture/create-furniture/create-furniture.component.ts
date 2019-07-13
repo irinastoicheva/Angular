@@ -28,14 +28,22 @@ export class CreateFurnitureComponent implements OnInit {
     });
   }
 
+  // createFurniture() {
+  //   this.furnitureService.createFurniture(this.form.value)
+  //     .subscribe(resp => {
+  //       console.log('success', resp);
+  //       if (resp['success']) {
+  //         this.router.navigate(['/furniture/all']);
+  //       }
+  //     });
+  // }
+
   createFurniture() {
+    console.log(this.form);
     this.furnitureService.createFurniture(this.form.value)
-      .subscribe(resp => {
-        console.log('success', resp);
-        if (resp['success']) {
-          this.router.navigate(['/furniture/all']);
-        }
-      });
+      .subscribe((data => {
+      this.router.navigate(['/furniture/all']);
+    }));
   }
 
   get f() {

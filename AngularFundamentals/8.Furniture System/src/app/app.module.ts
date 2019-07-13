@@ -21,6 +21,7 @@ import { CreateFurnitureComponent } from './furniture/create-furniture/create-fu
 import { FurnitureDetailsComponent } from './furniture/furniture-details/furniture-details.component';
 import { FurnitureUserComponent } from './furniture/furniture-user/furniture-user.component';
 import {FurnitureService} from './furniture/furniture.service';
+import {ResponseHandlerInterceptorService} from './response-handler-interceptor.service';
 
 @NgModule({
   declarations: [
@@ -49,6 +50,8 @@ import {FurnitureService} from './furniture/furniture.service';
     AuthService,
     FurnitureService,
     { provide: HTTP_INTERCEPTORS, useClass: JwtInterceptorService, multi: true },
+    { provide: HTTP_INTERCEPTORS, useClass: ResponseHandlerInterceptorService, multi: true },
+
   ],
   bootstrap: [AppComponent]
 })
